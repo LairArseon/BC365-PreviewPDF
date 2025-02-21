@@ -1,0 +1,30 @@
+{
+    "name": "Reglas Tebbie",
+    "rules": [
+        {
+            "id": "AA0137",
+            "action": "Error",
+            "justification": "El estandard solo da aviso, mejor error para evitar dejar basura"
+        },
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "Bug"
+        },
+        {
+            "id": "AA0232",
+            "action": "None",
+            "justification": "Las claves están definidas pero da el info igual"
+        },
+        {
+            "id": "AW0009",
+            "action": "None",
+            "justification": "Lo se, no se deben usar, esperemos que Microsoft de alternativa"
+        },
+        {
+            "id": "AA0210",
+            "action": "None",
+            "justification": "Solo aparece cuando quiere, es confuso, al final lo revisare todo para asegurarme de que hay claves"
+        }
+    ]
+}
