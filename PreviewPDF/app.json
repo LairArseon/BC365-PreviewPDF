@@ -3,13 +3,13 @@
   "name": "Preview PDF",
   "publisher": "Tebbie Inc.",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Preview PDF files in Business Central",
+  "description": "This extension allows to add parts to pages wherein you can visualise pdfs that are stored in the specified record.",
+  "privacyStatement": "MyPrivacyStatement.org",
+  "EULA": "MyEULA.org",
+  "help": "https://github.com/LairArseon/BC365-PreviewPDF",
+  "url": "https://github.com/LairArseon/BC365-PreviewPDF",
+  "logo": "./Logo/PDFLogo.png",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
@@ -21,11 +21,11 @@
     }
   ],
   "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
   },
-  "runtime": "14.0",
+  "runtime": "15.0",
   "features": [
     "NoImplicitWith",
     "NoPromotedActionProperties"

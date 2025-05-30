@@ -1,13 +1,22 @@
-# AL-Go AppSource App Template
+# Preview PDF Extension
 
-This template repository can be used for managing AppSource Apps for Business Central.
+This extension allows to add parts to pages wherein you can visualise pdfs that are stored in the specified record.
 
-[![Use this template](https://github.com/microsoft/AL-Go/assets/10775043/ca1ecc85-2fd3-4ab5-a866-bd2e7e80259d)](https://github.com/new?template_name=AL-Go-AppSource&template_owner=microsoft)
+## Object Ranges and amount
 
-Please go to https://aka.ms/AL-Go to learn more.
+| Range Start | Range End |
+|-------------|-----------|
+|50100        |50199      |
 
-## Contributing
-
-Please read [this](https://github.com/microsoft/AL-Go/blob/main/Scenarios/Contribute.md) description on how to contribute to AL-Go for GitHub.
-
-We do not accept Pull Requests on the template repository directly.
+| Object Type | Amount |
+|-------------|-------------|
+| Table       | 1       |
+| Page        | 1       |
+| Report      | 0       |
+| Codeunit    | 0       |
+| XMLport     | 0       |
+| Query       | 0       |
+| Table Extension | 0       |
+| Page Extension | 0       |
+| Report Extension | 0       |
+|Control Add-in | 1       |
